@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header, footer {
+            background-color: #1e2a38;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            max-width: 1200px;
+        }
+        .intro {
+            text-align: center;
+            padding: 2em 0;
+        }
+        nav {
+            background-color: #fff;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1em;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #1e2a38;
+        }
+        section {
+            padding: 2em 0;
+        }
+        .product-category {
+            background-color: #fff;
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            margin-top: 2em;
+        }
+        .social-links a {
+            margin: 0 1em;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página Personal</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#tecnologia">Tecnología</a></li>
+            <li><a href="#belleza">Belleza y Cuidado Personal</a></li>
+            <li><a href="#deportes">Deportes y Fitness</a></li>
+            <li><a href="#hogar">Hogar</a></li>
+            <li><a href="#tendencias">Tendencias</a></li>
+            <li><a href="#escolares">Útiles Escolares</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section class="intro">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy [Tu Nombre], bienvenido a mi página personal. Aquí podrás encontrar una selección de productos en diversas categorías como tecnología, belleza y cuidado personal, deportes y fitness, hogar, tendencias y útiles escolares.</p>
+        </section>
+        <section id="tecnologia" class="product-category">
+            <h2>Tecnología</h2>
+            <p>Aquí encontrarás los últimos productos en tecnología.</p>
+        </section>
+        <section id="belleza" class="product-category">
+            <h2>Belleza y Cuidado Personal</h2>
+            <p>Explora productos de belleza y cuidado personal para sentirte y verte bien.</p>
+        </section>
+        <section id="deportes" class="product-category">
+            <h2>Deportes y Fitness</h2>
+            <p>Encuentra los mejores productos para mantenerte en forma y activo.</p>
+        </section>
+        <section id="hogar" class="product-category">
+            <h2>Hogar</h2>
+            <p>Descubre productos para mejorar tu hogar.</p>
+        </section>
+        <section id="tendencias" class="product-category">
+            <h2>Tendencias</h2>
+            <p>Conoce las últimas tendencias en diferentes áreas.</p>
+        </section>
+        <section id="escolares" class="product-category">
+            <h2>Útiles Escolares</h2>
+            <p>Encuentra todo lo que necesitas para la escuela.</p>
+        </section>
+    </div>
+    <footer>
+        <p>Contacto: [Tu Email]</p>
+        <div class="social-links">
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
